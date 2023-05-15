@@ -124,7 +124,7 @@ const deleteNoteByIdHandler = (request, h) => {
 
   const index = notes.findIndex((n) => n.id === id);
 
-  if (index !== id) {
+  if (index !== -1) {
     notes.splice(index, 1);
 
     const response = h.response({

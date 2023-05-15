@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"notes-app-back-end","dependencies":{"@hapi/hapi":{"version":"21.3.2"},"nanoid":{"version":"3.3.6"}}}
